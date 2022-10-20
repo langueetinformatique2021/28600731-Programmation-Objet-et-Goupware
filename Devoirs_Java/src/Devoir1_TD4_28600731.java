@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 public class Devoir1_TD4_28600731 {
-	
 		
 		public static void main(String[] args) {
 			
