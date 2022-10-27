@@ -7,7 +7,7 @@ public class Chat extends Felin implements Domesticable {
 	
 	
 	public Chat() {
-		super("Chat");
+		super("Chats");
 	}
 	
 	public Chat(String type) {
