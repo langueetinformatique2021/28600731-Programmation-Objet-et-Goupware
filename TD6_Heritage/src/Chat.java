@@ -4,30 +4,28 @@
 	 */
 
 public class Chat extends Felin implements Domesticable {
-
-	protected boolean domestique = true; 
-
-	/** présentation des caractéristiques du chat */
-	public Chat(String type, int pattes, boolean domestique_) {
-		super(type, pattes, domestique_);
-	 } 
 	
-	/** présentation des caractéristiques du chat */
-	public void présente() { 
-	// appel de la méthode de la sur-classe
-		super.présente();
-		String etat = (domestique) ? "domestique" : "sauvage"; 
-		System.out.println("je suis vraiment un animal " + etat) ; 
-	 }
+	public Chat(String type, int pattes, boolean domestique_) {
+			super(type, pattes, domestique_);
+			// TODO Auto-generated constructor stub
+		}
 
+	String nom = null;
+	
 	@Override
-	public void domestiquer(String nom) {
-		
+	public void domestiquer(String nom_) {
+		// TODO Auto-generated method stub
+		domestique = true;
+		nom = nom_; 
 	}
 
 	@Override
 	public String nom() {
-		return null;
-	} 
+		// TODO Auto-generated method stub
+		return nom;
+	}
 	
+	public void crie() {
+		System.out.println("Je miaule");
+	}
 }
