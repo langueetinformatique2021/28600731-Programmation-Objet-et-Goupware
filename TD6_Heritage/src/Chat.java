@@ -19,15 +19,13 @@ public class Chat extends Felin implements Domesticable {
 	
 	@Override
 	public void domestiquer(String nom_) {
-		// TODO Auto-generated method stub
 		domestique = true;
-		nom = nom_; 
+		nom = nom_;  // sinon écrire  this.nom = nom  (this est l'objet)
 	}
 
 	@Override
 	public String nom() {
-		// TODO Auto-generated method stub
-		return nom;
+		return nom;   //return this.nom   si on avait utilisé this plus haut
 	}
 	
 	public void crie() {
