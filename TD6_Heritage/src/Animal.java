@@ -8,7 +8,7 @@ public abstract class Animal {
 
 		/** Création et gestion d'animaux */
 		private String espèce;
-		private int nb_pattes = 0;
+		private int nb_pattes;
 		
 		/** création d'une nouvelle instance de la classe Animal
 		* @param type nom de l'espèce
@@ -26,6 +26,6 @@ public abstract class Animal {
 			" et j'ai "+nb_pattes+ " pattes" ); 
 		} 
 		/** cri de l'animal */
-		public abstract void crie(); 
+		public abstract void crie(); //une classe abstraite (sans code)
 		
 }

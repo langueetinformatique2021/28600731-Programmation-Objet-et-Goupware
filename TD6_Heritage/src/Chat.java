@@ -5,8 +5,8 @@
 
 public class Chat extends Felin implements Domesticable {
 	
-	public Chat(String type, int pattes, boolean domestique_) {
-			super(type, pattes, domestique_);
+	public Chat(String type) {
+			super(type);
 			// TODO Auto-generated constructor stub
 		}
 

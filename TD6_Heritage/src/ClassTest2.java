@@ -7,7 +7,7 @@
 public class ClassTest2 {
 
 	public static void main(String[] args) {
-		Chat C = new Chat("Siamois", 4, true);
+		Chat C = new Chat("Siamois");
 		C.présente();
 		C.domestiquer("Je m'apelle Felix");
 		System.out.println(C.nom());

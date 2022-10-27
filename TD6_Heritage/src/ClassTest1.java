@@ -6,11 +6,9 @@ public class ClassTest1 {
 	 * @return présente() le felin avec ses caractéristiques données
 	 */
 	public static void main(String[] args) {
-		Felin F = new Felin("Tigres", 4, false);
+		Felin F = new Felin("Tigres");
 		F.présente();
 		
-		
-
 	}
 
 }
