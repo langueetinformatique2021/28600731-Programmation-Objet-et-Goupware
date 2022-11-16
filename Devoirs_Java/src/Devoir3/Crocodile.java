@@ -38,7 +38,7 @@ public class Crocodile extends Reptile implements Repertorier {
 	}
 	
 	public void crie() {
-		System.out.println("Je vagie");
+		System.out.println("Je vagie.");
 	}
 
 	public void set_id(String _id) {
@@ -59,6 +59,16 @@ public class Crocodile extends Reptile implements Repertorier {
 		return habitat;
 	}
 	
+	protected String deplacement() {
+		return (volant) ? "volant" : "marchant";
+	}
+
+	
+	public void présente() {
+		super.présente();
+		this.crie();
+
+	}
 	
 }
 	

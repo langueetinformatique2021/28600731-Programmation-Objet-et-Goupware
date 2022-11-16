@@ -19,13 +19,17 @@ public Reptile(String _espece, int _age, String _sexe,
 	espece = _espece;
  } 
 
+protected String deplacement() {
+	return (volant) ? "volant" : "rampant";
+}
+
 /** présentation des caractéristiques du reptile */
 public void présente() { 
 // appel de la méthode de la sur-classe
 	super.présente();
 	String etat1 = (domestique) ? "domestique" : "sauvage"; 
-	String etat2 = (volant) ? "volant" : "rampant";
-	System.out.println("Je suis vraiment un " + espece + " " + etat1 + " et " +etat2 +".") ; 
+	String etat2 = this.deplacement();
+	System.out.println("Je suis vraiment un " + espece + " " + etat1 + " et " +etat2 +".") ;
  } 
 
 /** cri du reptile */
