@@ -1,9 +1,18 @@
 package Devoir4;
 
+/**
+ * 
+ * @author Alexandra DEMKOVIC
+ *
+ */
+
 public class TestCercle {
 
 	public static void main(String[] args) {
 		
+		/**
+		 * Création de références et d'objets : Cercle1, Cercle2, Cercle3, Cercle4
+		 */
 		Cercle Cercle1; // création de référence
 		Cercle1 = new Cercle("Violet"); // création d'objet
 		
@@ -16,7 +25,9 @@ public class TestCercle {
 		Cercle Cercle4;
 		Cercle4 = new Cercle("Bleu");
 		
-		// affectation de valeurs aux champs de données (attributs)
+		/**
+		 * affectation de valeurs aux champs de données (attributs)
+		 */
 		Cercle1.setX(10);
 		Cercle1.setY(20);
 		Cercle1.setR(5);
@@ -33,8 +44,10 @@ public class TestCercle {
 		Cercle4.setY(15);
 		Cercle4.setR(7.5);
 		
-		
-		float surface1 = Cercle1.surface(); // invocation de méthode double circonference = Cercle1.circonference();
+		/**
+		 * invocation de la méthode surface() sur chaque cercle
+		 */
+		float surface1 = Cercle1.surface(); 
 		float surface2 = Cercle2.surface();
 		float surface3 = Cercle3.surface();
 		float surface4 = Cercle4.surface();

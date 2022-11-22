@@ -1,9 +1,18 @@
 package Devoir4;
 
+/**
+ * 
+ * @author Alexandra DEMKOVIC
+ * Création de la classe Cercle extension de la classe FigureGeometrique et implétant l'interface Comparable
+ *
+ */
 
 public class Cercle extends FigureGeometrique implements Comparable{
 	
-
+	/**
+	 * Création du constructeur de Cercle contenant le paramètre couleur
+	 * @param _couleur
+	 */
 	public Cercle(String _couleur) {
 		super(_couleur);
 	}

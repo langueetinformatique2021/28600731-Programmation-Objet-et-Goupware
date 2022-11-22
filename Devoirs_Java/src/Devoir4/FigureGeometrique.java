@@ -1,14 +1,16 @@
 package Devoir4;
 
-/** 
- * création et gestion d'une figure géométrique
-*/
+/**
+ * 
+ * @author Alexandra DEMKOVIC
+ *Création et gestion d'une figure géométrique
+ */
 public abstract class FigureGeometrique {
 	
     protected String couleur = "noir";
 
     /** création d'une nouvelle instance de la classe FigureGeometrique
-     * @param co couleur de la figure
+     * @param _couleur : couleur de la figure
      */    
     public FigureGeometrique (String _couleur) {
         couleur = _couleur; // couleur par défaut
