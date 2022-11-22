@@ -13,7 +13,19 @@ public class Calendar2 extends GregorianCalendar {
 	public Calendar2() {
 		Date date = new Date();
 		this.setTime(date);
-				
+		cours = this.isCours();
+		
+	}
+	
+	private boolean isCours() {
+		if (creation.getHours() <= 12) {
+			if (creation.getHours() >= 9) {
+				if (creation.getHours() > 9 || creation.getMinutes() >= 30) {
+					return true;
+				}
+			}
+		}
+		return false;
 	}
 	
 	/** affiche la date et l’heure de la création de l’objet */
