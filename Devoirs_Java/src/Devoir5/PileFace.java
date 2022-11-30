@@ -1,9 +1,8 @@
 package Devoir5;
 
-import TD8_LancerDes.Aleat;
-
 /**
- * 
+ * Simulation d'un jeu de pile ou face
+ * Calcul de la moyenne des piles et des faces sur 1000 lancers 
  * @author Alexandra DKC
  *
  */
