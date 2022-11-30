@@ -2,7 +2,7 @@ package Devoir5;
 
 /**
  * Générateur de nombres entiers naturels aléatoires
- * @author Alexandra DEMKOVIC
+ * @author Alexandra DEMKOVIC   
  *
  */
 public class Aleat {
